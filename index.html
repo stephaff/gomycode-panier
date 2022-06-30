@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="panier">
+        <table>
+            <tr class="table-title">
+                <td>Nom de l'article</td>
+                <td>Quantité</td>
+                <td>Prix unitaire</td>
+                <td>Sous-total</td>
+            </tr>
+            <tr class="article">
+                <td class="article-name">Tablette <img src="images/corbeille.png" class="corbeille" alt="corbeille" width="25" height="25"></td>
+                <td class="article-quantite"><button class="btn-moins">-</button><span class="quantite">0</span><button class="btn-plus">+</button></td>
+                <td class="article-price">25000</td>
+                <td class="article-price-commande">0</td>
+            </tr>
+            <tr class="article">
+                <td class="article-name">Tablette <img src="images/corbeille.png" class="corbeille" alt="corbeille" width="25" height="25"></td>
+                <td class="article-quantite"><button class="btn-moins">-</button><span class="quantite">0</span><button class="btn-plus">+</button></td>
+                <td class="article-price">100</td>
+                <td class="article-price-commande">0</td>
+            </tr>
+        </table>
+        <div class="command-recap">
+            <h2>Total : </h2><h2 class="command-total">0</h2>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

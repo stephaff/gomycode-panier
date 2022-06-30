@@ -1,0 +1,54 @@
+td{
+    width: 150px;
+    padding: 15px 0 15px 0;
+    text-align: center;
+}
+.panier{
+    width: 600px;
+}
+.table-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.article-name{
+    text-align: left;
+}
+.article-quantite{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.article-price, .article-price-commande{
+    text-align: right;
+}
+button{
+    color: white;
+    font-size: 18px;
+    border: 1px solid grey;
+    border-radius: 14px;
+    cursor: pointer;
+    background-color: grey;
+}
+.command-recap{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.command-total{
+    width: 120px;
+    text-align: right;
+}
+#ajouter-article{
+    border: none;
+    border-radius: 4px;
+    color: white;
+    background-color: #3A8EBA;
+    cursor: pointer;
+}
+.corbeille{
+    cursor: pointer;
+    transition: linear 0.3s;
+}
+.corbeille:hover{
+    transform: rotate(25deg);
+}
